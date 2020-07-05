@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Registration form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="style2.css">
+  <script src="validate2.js"></script> 
+  <!--<script src="https://kit.fontawesome.com/a076d05399.js"></script>-->
+  
+</head>
+<body>
+    <center>
+    <div class="Register-form">
+        <form onsubmit="return validate()" action="login.html">
+        <h1 class="heading">Register</h1>
+        <div><input id="e-mail" type="text" placeholder="E-mail address">
+            <label id="valid4" style="color:red; visibility:hidden;">Invalid</label></div><br>
+        <div><input id="usname" type="text" placeholder="Username"> 
+            <label id="valid" style="color:red; visibility:hidden;">Invalid</label></div><br>
+        <div><input id="pass" type="password" placeholder="Password">
+            <label id="valid2" style="color:red; visibility:hidden;">Invalid</label></div><br>
+            <!--<label id="valid6" style="color:red; visibility:hidden;">Password should contain atleast 1uppercase,1lowercase,1specialcharacter,1number and minimum length is 8</label>
+            <label id="valid3" style="color:red; visibility:hidden;">Password is too short</label></div><br>-->
+        <div><input id="address" type="text" placeholder="City address">
+            <label id="valid5" style="color:red; visibility:hidden;">Invalid</label></div><br>
+        <div><input id="mobile" type="text" placeholder="Mobile number"> 
+            <label id="valid7" style="color:red; visibility:hidden;">Invalid</label></div><br>
+        <div ><p id="aggrement"><span><input type="checkbox"></span>I agree to the terms of services</p></div>
+        <div><button type="submit" class="button">Sign up</button></div></div>
+        </form>
+    </div>
+    </center>
+</body>
+</html>

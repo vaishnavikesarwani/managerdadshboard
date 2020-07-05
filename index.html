@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Login form</title
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="validate.js"></script>   
+</head>
+<body>
+    <center>
+    <div class="Log-in-form">
+        <form onsubmit="return validate()" action="#.html">
+        <h1 class="heading">Login</h1>
+        <div><input id="usname" type="text" placeholder="Username">
+            <label id="valid" style="color:red; visibility:hidden;">Invalid</label></div><br>
+        <div><input id="pass" type="password" placeholder="Password">
+            <label id="valid2" style="color:red; visibility:hidden;">Invalid</label>
+            <label id="valid3" style="color:red; visibility:hidden;">Password is too short</label></div><br>
+        <div ><p class="aggrement"><span><input type="checkbox"></span>I agree to the terms of services</p></div>
+        <div><button type="submit" class="button">Sign In</button></div>
+        </form>
+        <div><a href="register.html"><button type="submit" id="button" class="button">Sign up</button></div></a></div>
+    </div>
+    </center>
+</body>
+</html>
